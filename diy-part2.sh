@@ -12,4 +12,3 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/10.10.10.252/g' package/base-files/files/bin/config_generate
-sed -i 's/root::0:0:99999:7:::/root:$1$x/W5rvbY$zPxnZ33aVboQKAZeJ746b1:19140:0:99999:7:::/g' package/base-files/files/etc/shadow
